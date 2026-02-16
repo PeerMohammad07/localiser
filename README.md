@@ -69,25 +69,25 @@ Create a `localiser.json` file to configure your translation settings:
 Translate all configured languages and namespaces:
 
 ```bash
-loaliser
+localiser
 ```
 
 ### Translate Specific Language
 
 ```bash
-loaliser --language fr,es
+localiser --language fr,es
 ```
 
 ### Translate Specific Namespaces
 
 ```bash
-loaliser --namespace home,settings
+localiser --namespace home,settings
 ```
 
 ### Translate Specific Language and Namespace
 
 ```bash
-loaliser --language fr --namespace home
+localiser --language fr --namespace home
 ```
 
 ### Custom Configuration File
